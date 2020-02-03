@@ -8,7 +8,7 @@ public class LoginPage extends BasePage{
     private final By INVALID_DATA_ERROR = By.id("flash");
     private final By USERNAME_INPUT_FIELD = By.id("username");
     private final By PASSWORD_INPUT_FIELD = By.id("password");
-    private final By LOGIN_PAGE_LABEL = By.className("heading");
+    private final By LOGIN_PAGE_LABEL = By.cssSelector("div.example h2");
     private final By LOGIN_BUTTON = By.cssSelector("button.radius");
 
 

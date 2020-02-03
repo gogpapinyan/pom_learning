@@ -22,6 +22,16 @@ public class BasePage {
     }
 
     /**
+     * Opens the link
+     */
+    public void openLink(String url){
+        driver.get(url);
+    }
+
+    public String getCurrentURL(){
+        return driver.getCurrentUrl();
+    }
+    /**
      * Click on the webElement
      * @param by
      */
