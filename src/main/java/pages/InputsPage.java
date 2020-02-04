@@ -23,5 +23,10 @@ public class InputsPage extends BasePage {
 
     public String getInputLabelText(){
         return getText(INPUT_LABEL);
+
+    }
+
+    public String getInputFieldText(){
+        return getText(INPUT_FIELD);
     }
 }

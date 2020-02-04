@@ -6,4 +6,5 @@ public class AutomationPaths {
     public static final String URL_MAIN = "http://the-internet.herokuapp.com/";
     public static final String URL_LOGIN = "http://the-internet.herokuapp.com/login";
     public static final String URL_FORGOT_PASSWORD = "http://the-internet.herokuapp.com/forgot_password";
+    public static final String URL_INPUTS = "http://the-internet.herokuapp.com/inputs";
 }
